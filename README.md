@@ -13,25 +13,25 @@ The program supports input from GMSH (www.gmsh.info) and .VTK output, to be disp
 
 To simulate the continuum, I heavily modified a finite element code (soofeaM) developed at our institute by former colleagues and myself (see below).
 
-| soofeaM - Software for Object Oriented Finite Element Analysis with Matlab
-| (c) 2008-2013: Michael Hammer
-| (c) 2017-2020: Benedikt Weger, Patrick Wurm
-|
-| soofeaM is free software; you can redistribute it and/or modify
-| it under the terms of the GNU General Public License as published by
-| the Free Software Foundation; either version 2 of the License, or
-| (at your option) any later version.
-|
-|Here is a short summary of the differences between the current version of soofeaM and the standard soofeaM.
-|This version:
-|* is much more optimized and is therefore not well suited as a learning tool
-|* uses velocity verlet explicit time integration with a lumped mass
-|  matrix for extra efficiency
-|* is a linear finite element version with a vectorized version of the material routine/internal node force 
-|  evaluation 
-|* does only support displacements as boundary conditions (it would be straightforward
-|  to include nodal forces, volume forces, ... just like in standard soofeaM,
-|  but they were simply not needed for the project and therefore not included)
+soofeaM - Software for Object Oriented Finite Element Analysis with Matlab
+(c) 2008-2013: Michael Hammer
+(c) 2017-2020: Benedikt Weger, Patrick Wurm
+
+soofeaM is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+Here is a short summary of the differences between the current version of soofeaM and the standard soofeaM.
+This version:
+* is much more optimized and is therefore not well suited as a learning tool
+* uses velocity verlet explicit time integration with a lumped mass
+  matrix for extra efficiency
+* is a linear finite element version with a vectorized version of the material routine/internal node force 
+  evaluation 
+* does only support displacements as boundary conditions (it would be straightforward
+  to include nodal forces, volume forces, ... just like in standard soofeaM,
+  but they were simply not needed for the project and therefore not included)
 
 Limitations:
 * The capabilities for dislocation detection, passing and evolution of discrete dislocation are limited:
