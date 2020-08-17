@@ -1,5 +1,3 @@
-Coupled Atomistic and Discrete Dislocation (CADD)
-
 This is a program written in MATLAB(TM) able to perform atomistic-to-continuum multiscale simulations of mechanical problems.
 It uses the two-dimensional, finite-temperature version of the Coupled Atomistic and Discrete Dislocation (CADD) method. Thus, the atomistic region uses molecular dynamics and the continuum region uses the (linear) finite element method.
 
@@ -42,4 +40,5 @@ Limitations:
   These capabilities were however only of secondary interest in the projects in which this program was used and only a single glide direction was studied. Thus, the detection, passing and evolution is currently limited to a single glide direction
   in a hexagonal material with c-axis normal to the plane. A generalization is possible.    
 
+(c) Patrick Wurm
 
